@@ -8,7 +8,7 @@ class EnrolmentAdmin(admin.ModelAdmin):
         'name_of_bank', 'uan_no', 'name_of_company', 'spouse_name'
     )
     search_fields = (
-        'full_name', 'mobile_no_1', 'mobile_no_2', 'adhar_no', 'voter_id_dl_no',
+        'full_name', 'mobile_no_1', 'mobile_no_2', 'aadhar_no', 'voter_id_dl_no',
         'name_of_bank', 'uan_no', 'name_of_company', 'spouse_name', 'emergency_contact_person'
     )
     list_filter = (
