@@ -119,16 +119,16 @@ USE_TZ = True
 
 
 # *** STATIC CONFIGURATIONS FOR PRODUCTION ***
-# STATIC_URL = '/static/'
-# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-#
-# # Extra places for collectstatic to find static files.
-# STATICFILES_DIRS = [
-#     os.path.join(BASE_DIR, 'staticfiles'),
-# ]
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+# Extra places for collectstatic to find static files.
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'staticfiles'),
+]
 
 # *** STATIC CONFIGURATIONS FOR DEVELOPMENT ***
-STATIC_URL = '/static/'
+# STATIC_URL = '/static/'
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, 'static')
@@ -151,13 +151,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Django Jazzmin Settings
 JAZZMIN_SETTINGS = {
     # title of the window (Will default to current_admin_site.site_title if absent or None)
-    "site_title": "Solvify Hub Admin",
+    "site_title": "Accurate Security Admin",
 
     # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)
-    "site_header": "Solvify Hub",
+    "site_header": "Accurate Security",
 
     # Title on the brand (19 chars max) (defaults to current_admin_site.site_header if absent or None)
-    "site_brand": "SolvifyHub",
+    "site_brand": "Accurate Security",
 
     # Logo to use for your site, must be present in static files, used for brand on top left
     "site_logo": "Logos/Logo-white.png",
@@ -175,10 +175,10 @@ JAZZMIN_SETTINGS = {
     "site_icon": None,
 
     # Welcome text on the login screen
-    "welcome_sign": "Welcome to the Solvify Hub",
+    "welcome_sign": "Welcome to the Accurate Security",
 
     # Copyright on the footer
-    "copyright": "Solvify Hub, 2024",
+    "copyright": "Accurate Security, 2024",
 
     # List of model admins to search from the search bar, search bar omitted if excluded
     # If you want to use a single search field you dont need to use a list, you can use a simple string
