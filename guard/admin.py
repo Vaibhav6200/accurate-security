@@ -16,7 +16,7 @@ class EnrolmentAdmin(admin.ModelAdmin):
     )
     fieldsets = (
         (None, {
-            'fields': ('date', 'name_of_unit', 'designation_applied_for')
+            'fields': ('date', 'name_of_unit', 'designation_applied_for', 'employee_image')
         }),
         ('Personnel Details', {
             'fields': (
