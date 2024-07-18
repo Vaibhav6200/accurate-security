@@ -6,7 +6,7 @@ class Enrolment(models.Model):
     date = models.DateField(null=True, blank=True)
     name_of_unit = models.CharField(max_length=255, null=True, blank=True)
     designation_applied_for = models.CharField(max_length=255, null=True, blank=True)
-    employee_image = models.ImageField(upload_to='images/', null=True, blank=True)
+    # employee_image = models.ImageField(upload_to='images/', null=True, blank=True)
 
     # Personnel Details
     full_name = models.CharField(max_length=255)
